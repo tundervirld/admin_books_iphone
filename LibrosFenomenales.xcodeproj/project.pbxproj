@@ -21,6 +21,12 @@
 		A1DC67AA1975FF46004F3F0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DC678C1975FF46004F3F0B /* UIKit.framework */; };
 		A1DC67B21975FF46004F3F0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1DC67B01975FF46004F3F0B /* InfoPlist.strings */; };
 		A1DC67B41975FF46004F3F0B /* LibrosFenomenalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67B31975FF46004F3F0B /* LibrosFenomenalesTests.m */; };
+		A1DC67BF19760309004F3F0B /* LibroFenomenal.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67BE19760309004F3F0B /* LibroFenomenal.m */; };
+		A1DC67C21976E486004F3F0B /* informacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67C11976E486004F3F0B /* informacionViewController.m */; };
+		A1DC67C41976F773004F3F0B /* portadaQuijote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1DC67C31976F773004F3F0B /* portadaQuijote.jpg */; };
+		A1DC67C7197718A1004F3F0B /* pictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67C6197718A1004F3F0B /* pictureViewController.m */; };
+		A1DC67CA19773A9D004F3F0B /* nuevoLibroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67C919773A9D004F3F0B /* nuevoLibroViewController.m */; };
+		A1DC67CB19773A9D004F3F0B /* nuevoLibroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67C919773A9D004F3F0B /* nuevoLibroViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,15 @@
 		A1DC67AF1975FF46004F3F0B /* LibrosFenomenalesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibrosFenomenalesTests-Info.plist"; sourceTree = "<group>"; };
 		A1DC67B11975FF46004F3F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1DC67B31975FF46004F3F0B /* LibrosFenomenalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibrosFenomenalesTests.m; sourceTree = "<group>"; };
+		A1DC67BD19760309004F3F0B /* LibroFenomenal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibroFenomenal.h; sourceTree = "<group>"; };
+		A1DC67BE19760309004F3F0B /* LibroFenomenal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibroFenomenal.m; sourceTree = "<group>"; };
+		A1DC67C01976E486004F3F0B /* informacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = informacionViewController.h; sourceTree = "<group>"; };
+		A1DC67C11976E486004F3F0B /* informacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = informacionViewController.m; sourceTree = "<group>"; };
+		A1DC67C31976F773004F3F0B /* portadaQuijote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portadaQuijote.jpg; sourceTree = "<group>"; };
+		A1DC67C5197718A1004F3F0B /* pictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pictureViewController.h; sourceTree = "<group>"; };
+		A1DC67C6197718A1004F3F0B /* pictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pictureViewController.m; sourceTree = "<group>"; };
+		A1DC67C819773A9D004F3F0B /* nuevoLibroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nuevoLibroViewController.h; sourceTree = "<group>"; };
+		A1DC67C919773A9D004F3F0B /* nuevoLibroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nuevoLibroViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +127,20 @@
 		A1DC678E1975FF46004F3F0B /* LibrosFenomenales */ = {
 			isa = PBXGroup;
 			children = (
+				A1DC67C31976F773004F3F0B /* portadaQuijote.jpg */,
 				A1DC67971975FF46004F3F0B /* AppDelegate.h */,
 				A1DC67981975FF46004F3F0B /* AppDelegate.m */,
 				A1DC679A1975FF46004F3F0B /* Main.storyboard */,
+				A1DC67C819773A9D004F3F0B /* nuevoLibroViewController.h */,
+				A1DC67C919773A9D004F3F0B /* nuevoLibroViewController.m */,
+				A1DC67C5197718A1004F3F0B /* pictureViewController.h */,
+				A1DC67C6197718A1004F3F0B /* pictureViewController.m */,
+				A1DC67C01976E486004F3F0B /* informacionViewController.h */,
+				A1DC67C11976E486004F3F0B /* informacionViewController.m */,
 				A1DC679D1975FF46004F3F0B /* ViewController.h */,
 				A1DC679E1975FF46004F3F0B /* ViewController.m */,
+				A1DC67BD19760309004F3F0B /* LibroFenomenal.h */,
+				A1DC67BE19760309004F3F0B /* LibroFenomenal.m */,
 				A1DC67A01975FF46004F3F0B /* Images.xcassets */,
 				A1DC678F1975FF46004F3F0B /* Supporting Files */,
 			);
@@ -229,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DC67A11975FF46004F3F0B /* Images.xcassets in Resources */,
+				A1DC67C41976F773004F3F0B /* portadaQuijote.jpg in Resources */,
 				A1DC67931975FF46004F3F0B /* InfoPlist.strings in Resources */,
 				A1DC679C1975FF46004F3F0B /* Main.storyboard in Resources */,
 			);
@@ -249,7 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DC67C21976E486004F3F0B /* informacionViewController.m in Sources */,
+				A1DC67BF19760309004F3F0B /* LibroFenomenal.m in Sources */,
 				A1DC679F1975FF46004F3F0B /* ViewController.m in Sources */,
+				A1DC67CA19773A9D004F3F0B /* nuevoLibroViewController.m in Sources */,
+				A1DC67C7197718A1004F3F0B /* pictureViewController.m in Sources */,
 				A1DC67991975FF46004F3F0B /* AppDelegate.m in Sources */,
 				A1DC67951975FF46004F3F0B /* main.m in Sources */,
 			);
@@ -260,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DC67B41975FF46004F3F0B /* LibrosFenomenalesTests.m in Sources */,
+				A1DC67CB19773A9D004F3F0B /* nuevoLibroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

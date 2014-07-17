@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LibroFenomenal.h"
+#import "nuevoLibroViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UITableViewController <nuevoLibroViewControllerDelegate>
+@property int cont;
+@property NSMutableArray *libros;
+@property NSIndexPath *deleteIndexPath;
+- (void) incremento;
 @end
