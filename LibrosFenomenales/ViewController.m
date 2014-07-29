@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "informacionViewController.h"
+#import "celdaFenomenal.h"
 
 @interface ViewController ()
 @end
@@ -82,7 +83,7 @@
 //Asignacion de valores al table view
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    UITableViewCell *celda = [tableView dequeueReusableCellWithIdentifier:@"Celda"];
+   /*^ UITableViewCell *celda = [tableView dequeueReusableCellWithIdentifier:@"Celda"];
     
     
     
@@ -98,7 +99,12 @@
     
     self.incremento;
     
-    NSLog(@"numero: %i", _cont);
+    NSLog(@"numero: %i", _cont);*/
+    celdaFenomenal *celda = [tableView dequeueReusableCellWithIdentifier:@"Celda"];
+    LibroFenomenal *libro = [_libros objectAtIndex:indexPath.row];
+    celda.nombreLabel.text = libro.nombre;
+    celda.autorLabel.text = libro.autor;
+    celda.thumbnailImageView.image = libro.portada;
     
     return celda;
 }

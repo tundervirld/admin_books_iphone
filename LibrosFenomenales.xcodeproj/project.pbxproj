@@ -27,6 +27,8 @@
 		A1DC67C7197718A1004F3F0B /* pictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67C6197718A1004F3F0B /* pictureViewController.m */; };
 		A1DC67CA19773A9D004F3F0B /* nuevoLibroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67C919773A9D004F3F0B /* nuevoLibroViewController.m */; };
 		A1DC67CB19773A9D004F3F0B /* nuevoLibroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67C919773A9D004F3F0B /* nuevoLibroViewController.m */; };
+		A1DC67CE19776341004F3F0B /* celdaFenomenal.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67CD19776341004F3F0B /* celdaFenomenal.m */; };
+		A1DC67CF19776341004F3F0B /* celdaFenomenal.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC67CD19776341004F3F0B /* celdaFenomenal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		A1DC67C6197718A1004F3F0B /* pictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pictureViewController.m; sourceTree = "<group>"; };
 		A1DC67C819773A9D004F3F0B /* nuevoLibroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nuevoLibroViewController.h; sourceTree = "<group>"; };
 		A1DC67C919773A9D004F3F0B /* nuevoLibroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nuevoLibroViewController.m; sourceTree = "<group>"; };
+		A1DC67CC19776341004F3F0B /* celdaFenomenal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = celdaFenomenal.h; sourceTree = "<group>"; };
+		A1DC67CD19776341004F3F0B /* celdaFenomenal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = celdaFenomenal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 				A1DC67BD19760309004F3F0B /* LibroFenomenal.h */,
 				A1DC67BE19760309004F3F0B /* LibroFenomenal.m */,
 				A1DC67A01975FF46004F3F0B /* Images.xcassets */,
+				A1DC67CC19776341004F3F0B /* celdaFenomenal.h */,
+				A1DC67CD19776341004F3F0B /* celdaFenomenal.m */,
 				A1DC678F1975FF46004F3F0B /* Supporting Files */,
 			);
 			path = LibrosFenomenales;
@@ -275,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DC67C21976E486004F3F0B /* informacionViewController.m in Sources */,
+				A1DC67CE19776341004F3F0B /* celdaFenomenal.m in Sources */,
 				A1DC67BF19760309004F3F0B /* LibroFenomenal.m in Sources */,
 				A1DC679F1975FF46004F3F0B /* ViewController.m in Sources */,
 				A1DC67CA19773A9D004F3F0B /* nuevoLibroViewController.m in Sources */,
@@ -290,6 +297,7 @@
 			files = (
 				A1DC67B41975FF46004F3F0B /* LibrosFenomenalesTests.m in Sources */,
 				A1DC67CB19773A9D004F3F0B /* nuevoLibroViewController.m in Sources */,
+				A1DC67CF19776341004F3F0B /* celdaFenomenal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

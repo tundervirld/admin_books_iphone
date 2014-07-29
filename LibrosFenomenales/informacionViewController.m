@@ -80,5 +80,13 @@
 }
 
 - (IBAction)compartirButton:(id)sender {
-}
+    NSString *textoPorCompartir = [NSString stringWithFormat:@"¡Mira este fenomenal libro llamado %@! #DesarrollarAppsEsFenomenal", _libroSeleccionado.nombre];
+    NSArray *cosasPorCompartir  = @[textoPorCompartir, _libroSeleccionado.portada];
+    
+    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:cosasPorCompartir
+                                                                                         applicationActivities:nil];
+    [self presentViewController:activityViewController
+                       animated:YES
+                     completion:nil];
+ }
 @end
