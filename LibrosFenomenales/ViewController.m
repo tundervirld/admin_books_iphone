@@ -23,7 +23,7 @@
     _libros = [[NSMutableArray alloc] init];
     
     LibroFenomenal *libro = [[LibroFenomenal  alloc] init];
-    
+    /*
     //propiedades del objeto
     libro.nombre = @"Don quijote de la mancha";
     libro.autor = @"Miguel de Cervantes";
@@ -33,7 +33,7 @@
     libro.descripcion = @"Un hidalgo ya viejo y venido a menos en la region de La Mancha es fanatico de las novelas de caballeria y pierde la razon creyendose parte de ese mundo de caballeros andantes. Asi que ensilla un viejo rocin que apenas puede andar, busca a un campesino simplote al que toma por escudero, se arma con una oxidada armadura, una espada casi inutil yuna lanza que apenas sirve de vieja. Imagina que una fea campesina a la que casi no conoce es la bella dama de sueños y por cuyo honor luchara para deshacer entuertos e imponer la verdad y la justicia, monta en su desastrado rocin y se lanza a la aventura. Y en verdad tiene varias aventuras, pero que no son lo que el cree. Asi, imagina luchar contra gigantes que en realidad solo son molinos de viento y, enganchado por sus aspas, terminada derrengado contra el suelo. Otras aventuras son no menos divertidas. Y por ultimo consiguen lllevarlo de vuelta a casa donde fallece casi feliz. Cordialmente. Faluk. ";
     libro.url_portada =@"http://0.0.0.0:7771/assets/libros/1/original/objective_c.jpg?1405480391";
     
-    [_libros addObject:libro];
+    [_libros addObject:libro];*/
     
     libro = [[LibroFenomenal alloc] init];
     libro.nombre = @"Javi López y la cocinera fenomenal";
@@ -47,6 +47,21 @@
 
     
     [_libros addObject:libro];
+    
+    [LibroFenomenal methodToCall];
+    
+    for(NSArray *subArray in [LibroFenomenal methodToCall]) {
+        NSLog(@"Array in myArray: %@",subArray);
+    }
+    
+    
+    [LibroFenomenal initialBooks];
+    
+    for(LibroFenomenal *subArray in [LibroFenomenal initialBooks]) {
+        
+        //LibroFenomenal *libro  = [subArray objectAtIndex:0];;
+        NSLog(@"Array in myArray: %@", subArray);
+    }
     
     
     
