@@ -52,4 +52,23 @@
     return initialArrayBooks;
 }
 
+/*NSURL * url = [NSURL URLWithString:@"http://localhost:3000/courses.json"];
+ 
+ 
+ NSData * jsonData = [NSData dataWithContentsOfURL:url
+ options:NSUTF8StringEncoding
+ error:nil];
+ 
+ NSError * error;
+ 
+ NSArray * cursos = [NSJSONSerialization JSONObjectWithData:jsonData options:kNilOptions error:&error];
+ 
+ 
+ if (!cursos) {
+ NSLog(@"Error al cargar los datos %@", [error localizedDescription]);
+ return;
+ }
+ 
+self.cursosXcode = cursos;*/
+
 @end
