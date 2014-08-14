@@ -9,9 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface LibroFenomenal : NSObject
-{
-    NSArray *casa;
-}
+
 //Propiedades //setter getter
 @property NSString *nombre;
 @property NSString *autor;
